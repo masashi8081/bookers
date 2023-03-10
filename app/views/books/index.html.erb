@@ -7,5 +7,10 @@
   <p>Body</p>
   <span><%= book.body %></span>
 
+  <%= link_to "Show", show_book_path(@books.ids) %>
+  <%= link_to "Edit", edit_book_path(@books.ids) %>
+  <%= link_to "Destroy", destroy_book_path(@books.ids), method: :delete, "data-confirm" => "Are you Delete?" %>
+
+
 <% end %>
 
