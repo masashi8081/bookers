@@ -1,3 +1,7 @@
+<dov>
+  <%= flash[:notice] %>
+</dov>
+
 <h1>Editing Book</h1>
 
 <%= form_with model: @book, url:update_book_path(@book.id), method: :patch do |f| %>
@@ -9,6 +13,9 @@
   <%= f.text_area :body %>
 
   <%= f.submit 'Update Book' %>
+
+  <%= link_to 'Show', show_book_path(@book.id) %>
+  <%= link_to 'Back', "/books/" %>
 
 <% end %>
 
