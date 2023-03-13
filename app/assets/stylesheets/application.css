@@ -43,6 +43,7 @@ table {
   display: table;
   border-spacing: 2px;
   border-collapse: separate;
+  margin-bottom: 5px;
 
 
 }
@@ -62,17 +63,16 @@ td {
   display: block;
 }
 
-.field {
+.field, .action {
   margin-bottom: 10px;
 
 
 }
 
-.action {
 
+
+strong {
+  margin-right: 5px;
 
 }
 
-p {
-  display: block;
-}
