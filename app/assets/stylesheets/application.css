@@ -24,13 +24,26 @@ p {
 
 }
 
+
+h1, h2 {
+  font-family: verdana, arial, helvetica, sans-serif;
+  margin-bottom: 18px;
+
+}
+
 body {
   width: 100%;
   margin: 33px;
+  font-size: 13px;
+  line-height: 18px;
+  display: block;
 }
 
 table {
   display: table;
+  border-spacing: 2px;
+  border-collapse: separate;
+
 
 }
 
@@ -39,15 +52,27 @@ thead {
   vertical-align: middle;
 }
 
+td {
+  padding-bottom: 7px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
 .form {
   display: block;
 }
 
 .field {
+  margin-bottom: 10px;
+
 
 }
 
 .action {
 
 
+}
+
+p {
+  display: block;
 }
