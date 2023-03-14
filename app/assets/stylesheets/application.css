@@ -32,7 +32,7 @@ h1, h2 {
 }
 
 body {
-  width: 100%;
+
   margin: 33px;
   font-size: 13px;
   line-height: 18px;
@@ -57,10 +57,6 @@ td {
   padding-bottom: 7px;
   padding-right: 5px;
   padding-left: 5px;
-}
-
-.form {
-  display: block;
 }
 
 .field, .action {
